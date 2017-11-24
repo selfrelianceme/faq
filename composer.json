@@ -16,7 +16,10 @@
       "laravel":{
           "providers": [
             "Selfreliance\\Faq\\FaqServiceProvider"
-          ]
+          ],
+          "aliases": {
+              "Faq": "Selfreliance\\Faq\\Facades\\Faq"
+          }
       }
   },
   "require": {
