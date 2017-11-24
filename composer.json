@@ -1,0 +1,31 @@
+{
+  "name": "selfreliance/faq",
+  "type": "library",
+  "version": "0.0.1",
+  "description": "Faq for laravel",
+  "keywords": ["laravel"],
+  "homepage": "https://github.com/selfrelianceme/faq",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vlad Kit",
+      "email": "vladwebkit@gmail.com"
+    }
+  ],
+  "extra": {
+      "laravel":{
+          "providers": [
+            "Selfreliance\\Faq\\FaqServiceProvider"
+          ]
+      }
+  },
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8"
+  },
+  "autoload": {
+    "psr-4": {"Selfreliance\\Faq\\": "src/"}
+  }
+}
